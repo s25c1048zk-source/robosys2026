@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2026 Sato Shoma
 
+=======
+>>>>>>> 8618d9facb8386f159b8bb2a54fd5a2a4c88e75d
 import sys
 #本来は関数の前後に空行を2行あける（スライドの都合で省略）
 def tonum(s):   #def 関数の名前(引数)で関数を定義
@@ -11,7 +14,6 @@ def tonum(s):   #def 関数の名前(引数)で関数を定義
 
 x = 0
 for line in sys.stdin:
-    
     x += tonum(line.rstrip())
     x += tonum(line)
 
